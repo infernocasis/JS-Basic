@@ -77,4 +77,4 @@ do {
   } else {
     console.log("error");
   }
-} while (i < 2);
+} while (k < 2);
