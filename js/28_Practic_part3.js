@@ -36,7 +36,7 @@ const personalMovieDB = {
 function rememberMyFilms() {
   for (let i = 0; i < 2; i++) {
     //    цикл for, который выполняется 2 раза, так как мы задаем пользователю 2 вопроса про фильмы
-    const a = prompt("Один из последних просмотренных фильмов?", ""),
+    const a = prompt("Один из последних просмотренных фильмов?", "").trim(),
       b = prompt("На сколько оцените его?", "");
 
     if (a != null && b != null && a != "" && b != "" && a.length < 50) {
