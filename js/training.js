@@ -22,7 +22,6 @@ function canAdopt(obj) {
 }
 
 // const cats = ["Барсик", "Мурзик", "Васька"];
-
 function describeCats(arr) {
   return `всего котов ${arr.length}, первый - ${arr[0]}`;
 }
